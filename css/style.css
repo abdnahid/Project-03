@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+header{
+	background-color: none;
+}
+.mainbox{
+	    width: 1400px;
+	    margin: auto;
+	    display: flex;
+	    flex-wrap: wrap;
+	    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 15px;
+}
+section{
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:revert;
+	background-attachment: fixed;
+}
+h1{
+	font-size: 40px;
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+.action{
+	background-image: url(../images/action.jpg);
+	color: #6cf3ed;
+}
+.rpg{
+	background-image: url(../images/rpg.jpg);
+}
+.sports{
+	background-image: url(../images/sports.jpg);
+}
+.simulation{
+	background-image: url(../images/simulation.jpg);
+}
+.strategy{
+	background-image: url(../images/strategy.jpg);
+}
+section h1{
+    color: #41e1e9;
+    background: #471010ab;
+}
